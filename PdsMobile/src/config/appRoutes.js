@@ -1,0 +1,16 @@
+export const APP_LOGIN = "Login";
+export const APP_SIGNUP = "Sign Up";
+export const APP_HOME_SCREEN = "Home Screen";
+export const APP_HOME = "Home";
+export const APP_PROJECT = "Project";
+export const ACCOUNT_SETTINGS = "Account Settings";
+export const APP_ACCOUNT_DETAILS = "Account Details Screen";
+export const APP_ACCOUNT_DETAILS_SCREEN = "Account Details";
+export const APP_ACCOUNT_DETAILS_ACTIVITY = "Account Details Activity";
+export const APP_ACCOUNT_DETAILS_PROJECT = "Account Details Project";
+export const APP_AUTH_SCREEN = "Auth Screen";
+export const APP_COMMENT = "Comment";
+export const CREATE_PROJECT = "Create";
+export const EDIT_PROJECT = "Edit";
+export const APP_NO_CONNECTION = "No Connection";
+export const APP_MIDDLE = "Middle";

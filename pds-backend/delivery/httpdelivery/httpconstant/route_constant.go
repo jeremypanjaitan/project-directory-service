@@ -1,0 +1,54 @@
+package httpconstant
+
+const API_ROOT_ROUTE = "/"
+const SLASH = "/"
+const PARAM = ":"
+
+const NOTE = "note"
+const LOGIN = "login"
+const LOGOUT = "logout"
+const AUTH = "auth"
+const REGISTER = "register"
+const DIVISION = "division"
+const ROLE = "role"
+const CATEGORY = "category"
+const ID = "id"
+const PROFILE = "profile"
+const PASSWORD = "password"
+const PROJECT = "project"
+const REFRESH_TOKEN = "refresh-token"
+const LIKES = "likes"
+const LIKES_LIKE = "like"
+const LIKES_DISLIKE = "dislike"
+const VIEWS = "views"
+const COMMENT = "comment"
+const ACTIVITY = "activity"
+const FCM_TOKEN = "fcm-token"
+
+const ROUTE_NOTE = SLASH + "note"
+const ROUTE_AUTH = SLASH + AUTH
+const ROUTE_LOGIN = SLASH + LOGIN
+const ROUTE_LOGOUT = SLASH + LOGOUT
+const ROUTE_REGISTER = SLASH + REGISTER
+const ROUTE_DIVISION = SLASH + DIVISION
+const ROUTE_ROLE = SLASH + ROLE
+const ROUTE_CATEGORY = SLASH + CATEGORY
+const ROUTE_PARAM_ID = SLASH + PARAM + ID
+const ROUTE_USER_PROFILE = SLASH + PROFILE
+const ROUTE_USER_PROFILE_ID = SLASH + ":id"
+const ROUTE_CHANGE_PASSWORD = SLASH + PASSWORD
+const ROUTE_PROJECT = SLASH + PROJECT
+const ROUTE_PROJECT_ID = SLASH + ":id"
+const ROUTE_REFRESH_TOKEN = SLASH + REFRESH_TOKEN
+const ROUTE_FCM_TOKEN = SLASH + FCM_TOKEN
+const ROUTE_LIKES = SLASH + LIKES + ROUTE_PARAM_ID
+const ROUTE_LIKES_LIKE = SLASH + LIKES_LIKE
+const ROUTE_LIKES_DISLIKE = SLASH + LIKES_DISLIKE
+const ROUTE_VIEWS = SLASH + VIEWS + ROUTE_PARAM_ID
+const ROUTE_COMMENT = SLASH + COMMENT + ROUTE_PARAM_ID
+const ROUTE_USER_PROFILE_ACTIVITY = SLASH + ACTIVITY
+
+const ROUTE_NO_AUTH_LOGIN = API_ROOT_ROUTE + AUTH + SLASH + LOGIN
+const ROUTE_NO_AUTH_REGISTER = API_ROOT_ROUTE + AUTH + SLASH + REGISTER
+const ROUTE_NO_AUTH_REFRESH_TOKEN = API_ROOT_ROUTE + AUTH + SLASH + REFRESH_TOKEN
+const ROUTE_NO_AUTH_CHANGE_PASSWORD = API_ROOT_ROUTE + PROFILE + ROUTE_CHANGE_PASSWORD

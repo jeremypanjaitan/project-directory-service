@@ -1,0 +1,35 @@
+.arrow-button {
+  /* arrow button */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  width: 150px;
+  height: 24px;
+  left: 729px;
+  top: 160px;
+}
+
+.signup-box {
+  position: absolute;
+  width: 457px;
+  height: 50px;
+}
+
+.SignupForm {
+  /* fullname form */
+
+  position: absolute;
+  background: #ffffff;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.SignupButton {
+  width: 462px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "237991060748",
+    "project_id": "project-directory-servic-a843a",
+    "storage_bucket": "project-directory-servic-a843a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237991060748:android:50602e31466106b4edd529",
+        "android_client_info": {
+          "package_name": "com.pdsmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "237991060748-eknpj7f680o7hcdemc130783hcrbelg8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCy9TpD3ej2387Z9nSlRaFaGDlaItUAm9g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "237991060748-eknpj7f680o7hcdemc130783hcrbelg8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

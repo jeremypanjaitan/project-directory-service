@@ -1,0 +1,17 @@
+export const API_AUTH = "/auth/login";
+export const API_LOGOUT = "/auth/logout";
+export const API_PROFILE = "/profile";
+export const API_PROFILE_PROJECT = "/profile/project";
+export const API_PROFILE_ACTIVITY = "/profile/activity";
+export const API_ROLE = "/role";
+export const API_DIVISION = "/division";
+export const API_REGISTER = "/auth/register";
+export const API_CATEGORY = "/category";
+export const API_PROJECT = "/project";
+export const API_PROFILE_PASSWORD = "/profile/password";
+export const API_REFRESH_TOKEN = "/auth/refresh-token";
+export const API_LIKES = "/likes";
+export const API_LIKE = "/like";
+export const API_DISLIKE = "/dislike";
+export const API_VIEWS = "/views";
+export const API_COMMENT = "/comment";

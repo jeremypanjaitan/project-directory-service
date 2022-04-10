@@ -1,0 +1,11 @@
+gin-bin
+.env
+setup.sh
+*.sh
+*.html
+*.out
+*.vscode
+serviceAccountKey.json
+pds-backend
+pds-backend.*
+.env
